@@ -1,0 +1,152 @@
+body {
+    font-family: sans-serif;
+    background-color: #1e1e2f;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #3a3a5a;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+.rodape {
+    text-align: center;
+    padding: 1em;
+    background-color: #3a3a5a;
+    color: #ccc;
+}
+
+.sistema {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 2em;
+    margin: 2em auto;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
+
+.sistema h2 {
+    text-align: center;
+}
+
+/* Inputs e botões */
+input,
+button {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+input:focus,
+button:focus {
+    outline: 2px solid #ff6f61;
+}
+
+/* Botões */
+button {
+    background-color: #ff6f61;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3b2e;
+}
+
+/* Lista de produtos */
+ul.lista-produtos {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.lista-produtos li {
+    margin-bottom: 1em;
+    border-bottom: 1px dashed #444;
+    padding-bottom: 0.5em;
+}
+
+/* Formulários */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Separador visual */
+hr {
+    margin: 2em 0;
+    border: 1px dashed #faf7f7;
+}
+
+/* Mensagens */
+.mensagem {
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sucesso {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.erro {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.informacao {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+/* Input de preço com prefixo R$ */
+.preco-input {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 0.5em 0;
+}
+
+.preco-input span {
+    background-color: #3a3a5a;
+    color: #fff;
+    padding: 0.5em;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.preco-input input {
+    flex: 1;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.produto-card {
+    background-color: #fff;
+    color: #222;
+    padding: 1em;
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produto-card p {
+    margin: 0.4em 0;
+}
